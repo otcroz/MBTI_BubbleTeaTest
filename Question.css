@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Aldrich'), url(http://themes.googleusercontent.com/static/fonts/aldrich/v3/BsJ0rSrq4pBC2xoMlek0Qg.ttf) format('truetype');
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#mainQ{ 
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+}
+
+.background{
+    
+}
+
+.system{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:50px;
+    
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #BC7676;
+}
+
+.questionTitle{
+    position: relative;
+    width: 225px;
+    height: 58px;
+    margin: auto;
+    top: 80px;
+    
+    background: #EDCABF;
+    border: 5px solid #EDCABF;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 58px;
+    color: #BC7676;
+}
+
+.questionBox{
+    position: relative;
+    width: 312px;
+    height: 189px;
+    margin: auto;
+    top: 100px;
+    
+    background: #F9F4F4;
+    opacity: 0.9;
+}
+
+.selectBox1{
+    position: relative;
+    width: 239px;
+    height: 94px;
+    margin: auto;
+    top: 130px;
+    
+    background: #F0D2D2;
+    opacity: 0.93;
+}
+
+.selectBox2{
+    position: relative;
+    width: 239px;
+    height: 94px;
+    margin: auto;
+    top: 150px;
+    
+    background: #F0D2D2;
+    opacity: 0.93;
+}
+

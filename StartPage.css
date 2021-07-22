@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Aldrich'), url(http://themes.googleusercontent.com/static/fonts/aldrich/v3/BsJ0rSrq4pBC2xoMlek0Qg.ttf) format('truetype');
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#main{ 
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 제목 박스*/
+
+.titleBox{
+    position: relative;
+    width: 253px;
+    height: 90px;
+    margin: auto;
+    top: 50px;
+    
+    background: #EDCABF;
+    border: 5px solid #EDCABF;
+    border-radius: 5px;
+}
+
+.titleBox_text1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:10px;
+    
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #BC7676;
+}
+
+.titleBox_text2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:10px;
+    
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 47px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+
+.mbtitest_text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:30px;
+    
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: #BC7676;
+}
+
+/*카페 박스*/
+
+.cafeBox {
+    position: relative;
+    width: 312px;
+    height: 246px;
+    margin: auto;
+    top: 80px;
+
+    background: #F9F4F4;
+    opacity: 0.9;
+}
+
+.bubbleTeas{
+    position: relative;
+    margin: auto;
+    top: 94px;
+
+    width: 312px;
+    height: auto;
+}
+
+.cafeTable{
+    position: relative;
+    width: 312px;
+    height: 25px;
+    margin: auto;
+    top: 65px;
+
+    background: #F1E1CD;
+}
+
+/* 시작 버튼 */
+
+.startButton{
+
+    position: relative;
+    width: 239px;
+    height: 82px;
+    margin: auto;
+    top: 90px;
+    
+    background: #EDCABF;
+    border: 5px solid #EDCABF;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #BC7676;
+    
+    color: #BC7676;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:120px;
+    
+    font-family: Aldrich;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #BC7676;  
+}
