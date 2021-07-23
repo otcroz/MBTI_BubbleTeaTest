@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@font-face {
+    font-family: 'Binggrae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#mainQ{ 
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+}
+
+.background{
+    position: relative;
+    
+    background-image: url('/images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.system{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    position: relative;
+    top:50px;
+    
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #BC7676;
+}
+
+.questionTitle{
+    position: relative;
+    width: 225px;
+    height: 58px;
+    margin: auto;
+    top: 80px;
+    
+    background: #EDCABF;
+    border: 5px solid #EDCABF;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 58px;
+    color: #BC7676;
+}
+
+.questionBox{
+    position: relative;
+    width: 312px;
+    height: 189px;
+    margin: auto;
+    top: 100px;
+    
+
+    background: #F9F4F4;
+    opacity: 0.9;
+    
+}
+
+.question_context{
+
+    position: absolute;
+    width: 290px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    
+
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Binggrae';
+    font-weight: 600;
+    word-break: keep-all;
+
+    transform: translate(-50%, -50%);
+
+    color: #9E6C6C;
+}
+
+.selectBox1{
+    position: relative;
+    width: 239px;
+    height: 94px;
+    margin: auto;
+    top: 130px;
+    
+    background: #F0D2D2;
+    opacity: 0.93;
+}
+
+.selectBox1:active{
+    color:white;
+    background-color: #C28181;
+}
+
+.selectBox2{
+    position: relative;
+    width: 239px;
+    height: 94px;
+    margin: auto;
+    top: 150px;
+    
+    background: #F0D2D2;
+    opacity: 0.93;
+}
+
+.selectBox2:active{
+    color:white;
+    background-color: #C28181;
+}
+
+.selText{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    
+
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Binggrae';
+    font-weight: 500;
+    word-break: keep-all;
+
+    transform: translate(-50%, -50%);
+
+    color: #9E6C6C;
+}
