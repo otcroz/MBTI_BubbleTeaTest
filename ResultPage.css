@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@font-face {
+    font-family: '777Balsamtint';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes colorChange{
+    30%{
+        color: white;
+    }
+    60%{
+        color: rgb(233, 190, 190);
+    }
+    90%{
+        color: black;
+    }
+}
+
+#main{ 
+    animation: fadein 5s ease 3s;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+}
+
+a{
+    text-decoration: none;
+}
+
+body{  
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.2) 50%, transparent 50%);
+  background-size: 15px 15px;
+    
+    background-color: #f6bfb6;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    padding: 10px;
+}
+
+.result_total_box{
+    display:flex;
+    flex-direction: column;    
+    margin: 5px;
+
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+/*cafeTitle*/
+
+.cafeTitle{
+    margin: 2px;
+    padding: 7px;
+
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    background-color: #EDCABF;
+    border-radius: 5px;
+}
+
+.cafeTitle1{
+    color: #BC7676;
+}
+
+.cafeTitle2{
+    color: white;
+}
+
+/*container1*/
+
+.result_container1{
+    display:flex;
+    flex: 1;
+}
+
+/*>result_summary1*/
+
+.result_summary1{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.take_out{
+    flex: 0;
+    margin: 5px 0 5px 5px;
+    padding: 10px;
+
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 14px;
+
+    background-color:#F8E9D9;
+    color: #C28D81;
+}
+
+.result_sum_box{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px 0 5px 5px;
+    
+    background-color: #c5b1a0;
+}
+
+.result_take_box{
+    flex: 1;
+    margin: 5px;
+    padding-top: 15px;
+
+    background-color: #ffffff;
+}
+
+.result_take_box>img{
+    margin-left: 15%;
+    width: 100px;
+}
+
+.result_tea_name{
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    
+    font-size: 19px;
+    line-height: 20px;
+    text-align: center;
+    font-family: '777Balsamtint';
+    font-weight: 900;
+    word-break: keep-all;
+
+
+    background-color: #ffffff;
+    color:rgb(85, 73, 64);
+}
+
+/*>result_summary2*/
+
+.result_summary2{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 5px 0 0;
+}
+
+.receipt_title{
+    flex: 0;
+    margin: 5px;
+    padding: 10px;
+
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 14px;
+
+    background-color:#F8E9D9;
+    color: #C28D81;
+}
+
+/*receipt_layout*/
+.receipt{
+    flex: 0.5;
+    margin: 5px;
+    padding: 10px;
+    
+    font-size: 15px;
+    line-height: 20px;
+    font-family: '777Balsamtint';
+    font-weight: 500;
+    word-break: keep-all;
+
+
+    background-color: white;
+    color: blue;
+}
+
+
+/*container2*/
+.result_container2{
+    flex: 1;
+    margin: 10px;
+}
+
+.result_contents1{
+    font-family: '777Balsamtint';
+    font-size: 22px;
+    font-weight: bold;;
+
+    opacity: 0.9;
+    padding: 8px;
+    margin-bottom: 5px;
+    
+   color:rgb(80, 72, 66)
+}
+
+.result_contents2{
+    padding: 10px;
+
+    font-size: 18px;
+    line-height: 22px;
+    font-family: '777Balsamtint';
+    font-weight: 500;
+    word-break: keep-all;
+
+    background-color: #F9F4F4;
+    opacity: 0.9;
+}
+
+/*container3*/
+.result_container3{
+    display:flex;
+    flex: 0.5;
+    margin: 5px;
+
+}
+
+.other_tea_1{
+    flex: 1;
+    margin: 10px 5px;
+    padding: 5px;
+    word-break: keep-all;
+    
+    
+    background-color: #F9F4F4;
+    opacity: 0.9;
+}
+
+.other_tea_2{
+    flex: 1;
+    margin: 10px 5px;
+    padding: 5px;
+    word-break: keep-all;
+    
+    background-color: #F9F4F4;
+    opacity: 0.9;
+}
+
+.other_tea_title{
+    margin: 2px;
+    padding: 10px;
+
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: '777Balsamtint';
+    font-weight: 700;
+
+    color:rgb(85, 73, 64);
+    
+}
+
+.other_tea_contents{
+    margin: 2px;
+    padding: 10px;
+    
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-family: '777Balsamtint';
+    font-weight: 500;
+}
+
+/*container4*/
+.result_container4{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+}
+
+.button_layout{
+    margin: 10px;
+}
+
+.r_button{
+    flex: 1;
+    width: 170px;
+    height: 55px;
+   
+
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 14px;
+
+    border: none;
+    
+    color: rgb(255, 255, 255);
+    background-color: #f0d5cd;
+}
+
+
+/*container5*/
+.result_container5{
+    display:flex;
+    flex-direction: column;
+    flex: 0.2;
+    margin: 5px;
+
+}
+
+.copyright{
+    flex: 1;
+    margin: 5px;
+    padding-top: 20px;
+    
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+    /*animation*/
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

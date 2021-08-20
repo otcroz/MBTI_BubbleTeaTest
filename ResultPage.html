@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <link rel = "stylesheet" href="ResultPage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.17.0/core.min.js" 
+    integrity="sha512-o6alMAMTI5qAmVC1UvuRPgTl3UOOkP8NZ6212+rq1Oslsuy8Owt9r5Z0Wu0LNxpw/Q8N8ToGiyovHV+kyOulxg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+</head>
+<body id="main">
+    <div class="result_total_box"><!--전체 박스-->
+        <div id="saveImg" download="result_bubbleTea.png">
+        <div class="cafeTitle">
+            <span class="cafeTitle1">BUBBLE TEA</span><span class="cafeTitle2"> CAFE</span>
+        </div>
+        <div class="result_container1">
+            <div class="result_summary1"><!--요약박스1-->
+                <div class="take_out">TAKE OUT</div>
+                <div class="result_sum_box">
+                    <div class="result_take_box">
+                        <img id="resultImg" src="bubbleTea_png/버블티_복숭아스무디.png">
+                    </div>
+                    <div id="resultTeaName" class="result_tea_name"></div>
+                </div>
+            </div>
+            <div class="result_summary2"><!--요약박스2-->
+                <div class="receipt_title">RECEIPT</div>
+                <div class="receipt">
+                    <div class="receipt_cafeN"><strong>(주)Bubble Tea Cafe</strong></div>
+                    <div>주문일시: <span id="receipt_time"></span></div>
+                    <div>메뉴명: <span id="receipt_menu"></span></div>
+                    <div>MBTI: <span id="receipt_mbti"></span></div>
+                    __________________
+                    <div id="receipt_element">
+                        달달:<span id="gauge1"></span>
+                        새콤:<span id="gauge2"></span>
+                        상큼:<span id="gauge3"></span>
+                        느끼:<span id="gauge4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="result_container2"><!--결과내용박스-->
+            <div id="hashtag" class="result_contents1"></div>
+            <div id="result_info" class="result_contents2">
+            </div>
+        </div>
+        <div class="result_container3"><!--어울리는, 안어울리는 버블티 박스-->
+            <div class="other_tea_1">
+                <div class = "other_tea_title">나와 어울리는<br>버블티</div>
+                <div id="matchTea" class = "other_tea_contents"></div>
+            </div>
+            <div class="other_tea_2">
+                <div class = "other_tea_title">내가 멀리하면 좋을<br>버블티</div>
+                <div id="noMatchTea" class = "other_tea_contents"></div>
+            </div>
+        </div>
+        </div> <!--save-->
+        <div class="result_container4"><!--버튼박스-->
+            <div class="button_layout"><button type="button" id="rButton1" class="r_button">SHARE</button></div>
+            <div class="button_layout"><a href="StartPage.html"><button type="button" id="rButton2" class="r_button">RESTART</button></a></div>
+        </div>
+        <div class="result_container5"><!--기타박스-->
+            <div class="copyright">copyright : yxxyn20, 2021</div>
+        </div>
+    </div>
+    <script src="Question.js"></script>
+    <script src="ResultPage.js"></script>
+</body>
+</html>
