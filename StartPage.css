@@ -23,8 +23,23 @@
     -webkit-animation: fadein 3s; /* Safari and Chrome */
 }
 
+body{
+    width:360px;
+    height:640px;
+    margin:auto;
+}
+
 a{
     text-decoration: none;
+}
+
+.total_box{
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* 제목 박스*/
