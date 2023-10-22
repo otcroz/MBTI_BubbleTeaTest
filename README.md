@@ -1,6 +1,10 @@
 ## 나의 버블티는 무엇일까? 버블티 MBTI Test
 
 <div align='center'>
+
+![App service introduction_ mbti webpage](https://github.com/otcroz/MBTI_BubbleTeaTest/assets/79989242/30fe085c-68a2-48a3-9edf-9e445728a7ed)
+
+
   
   `#MBTI테스트` `#웹페이지`
   
