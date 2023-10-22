@@ -15,7 +15,7 @@
 
 ### Introduction
 > 개인 토이 프로젝트
-> 2021.6 ~ 2021.8
+> 2021.7 ~ 2021.8
 
 ### Link
 > BubbleTea MBTI Test: [버블티 MBTI 웹페이지 바로가기](https://otcroz.github.io/MBTI_BubbleTeaTest/StartPage.html)
